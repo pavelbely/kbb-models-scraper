@@ -1,0 +1,25 @@
+{
+  "name": "kbb-models-scraper",
+  "version": "1.0.0",
+  "description": "KBB models scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelbely/kbb-models-scraper.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Chrome",
+    "Headless",
+    "Scrapping"
+  ],
+  "author": "Pavel Bely",
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "puppeteer": "git+https://github.com/GoogleChrome/puppeteer.git"
+  }
+}
